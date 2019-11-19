@@ -1,10 +1,12 @@
-import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import React, { useState } from 'react'
+import ColorPicker from './components/ColorPicker.js'
 
-class App extends Component {
-  render() {
-    return <HelloWorld />
-  }
+const App = () => {
+  return (
+    <>
+      <ColorPicker />
+    </>
+  )
 }
 
 export default App
